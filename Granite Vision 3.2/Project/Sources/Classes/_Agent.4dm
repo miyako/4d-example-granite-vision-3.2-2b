@@ -183,7 +183,7 @@ Function onClicked() : Object
 			Form:C1466.userPrompt:="Describe the main trends and key values shown in this chart."
 		: (Form:C1466.r2)
 			READ PICTURE FILE:C678(File:C1566("/RESOURCES/table.png").platformPath; $image)
-			Form:C1466.userPrompt:="Convert the information in this chart into a data table in CSV format."
+			Form:C1466.userPrompt:="Convert the information shown in this chart into a data table."
 	End case 
 	Form:C1466.image:=$image
 	

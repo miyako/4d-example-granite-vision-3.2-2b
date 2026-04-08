@@ -79,7 +79,7 @@
 					],
 					"focusable": false,
 					"method": "ObjectMethods/Continue Conversation.4dm",
-					"sizingX": "move"
+					"sizingX": "fixed"
 				},
 				"Image": {
 					"type": "input",
@@ -90,7 +90,7 @@
 					"dataSource": "Form:C1466.image",
 					"enterable": true,
 					"fill": "transparent",
-					"sizingX": "grow",
+					"sizingX": "move",
 					"sizingY": "grow",
 					"hideFocusRing": true,
 					"dataSourceTypeHint": "picture",
@@ -104,9 +104,12 @@
 					"left": 330,
 					"width": 91,
 					"height": 16,
-					"events": [],
+					"events": [
+						"onClick"
+					],
 					"dataSource": "Form:C1466.r1",
-					"radioGroup": "r"
+					"radioGroup": "r",
+					"method": "ObjectMethods/Chart.4dm"
 				},
 				"Table": {
 					"type": "radio",
@@ -115,14 +118,17 @@
 					"left": 430,
 					"width": 91,
 					"height": 16,
-					"events": [],
+					"events": [
+						"onClick"
+					],
 					"dataSource": "Form:C1466.r2",
-					"radioGroup": "r"
+					"radioGroup": "r",
+					"method": "ObjectMethods/Table.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 280,
+	"geometryStamp": 282,
 	"menuBar": "Barre #1",
 	"method": "method.4dm",
 	"editor": {
