@@ -52,12 +52,11 @@ parallel: $batches; \
 threads: $threads; \
 threads_batch: $threads; \
 threads_http: 2; \
-temp: 0.45; \
+temp: 0.2; \
 min_p: 0.05; \
-top_k: 40; \
+top_k: 50; \
 top_p: 0.9; \
 repeat_penalty: 1.2; \
-repeat_last_n: 128; \
 presence_penalty: 0; \
 mmproj: $folder.file($mmproj); \
 n_gpu_layers: $n_gpu_layers; \

@@ -96,39 +96,11 @@
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
 					"pictureFormat": "proportionalCenter"
-				},
-				"Chart": {
-					"type": "radio",
-					"text": "Chart",
-					"top": 87,
-					"left": 330,
-					"width": 91,
-					"height": 16,
-					"events": [
-						"onClick"
-					],
-					"dataSource": "Form:C1466.r1",
-					"radioGroup": "r",
-					"method": "ObjectMethods/Chart.4dm"
-				},
-				"Table": {
-					"type": "radio",
-					"text": "Table",
-					"top": 87,
-					"left": 430,
-					"width": 91,
-					"height": 16,
-					"events": [
-						"onClick"
-					],
-					"dataSource": "Form:C1466.r2",
-					"radioGroup": "r",
-					"method": "ObjectMethods/Table.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 282,
+	"geometryStamp": 284,
 	"menuBar": "Barre #1",
 	"method": "method.4dm",
 	"editor": {

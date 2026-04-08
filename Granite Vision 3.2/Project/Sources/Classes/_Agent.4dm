@@ -117,7 +117,7 @@ Function onCompletion($chatCompletionsResult : cs:C1710.AIKit.OpenAIChatCompleti
 	
 	If (Not:C34(This:C1470.preemptive))
 		//%T-
-		OBJECT SET VALUE:C1742(This:C1470.promptObjectName; "")
+		//OBJECT SET VALUE(This.promptObjectName; "")
 		var $pos : Integer
 		$pos:=Length:C16(This:C1470.ChatResult)+1
 		OBJECT SET VALUE:C1742(This:C1470.resultObjectName; This:C1470.ChatResult)
