@@ -2,4 +2,4 @@
 
 ## Example
 
-<img width="674" height="680" alt="" src="https://github.com/user-attachments/assets/c346da14-1498-4b3e-a0ab-04c174284c71" />
+![](https://github.com/user-attachments/assets/7af2679e-3d7b-4dff-bb9c-5fa82389f828)
